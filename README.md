@@ -1,34 +1,74 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# `@dynamicwebstudio/create-dws-app`
 
-## Getting Started
+## Description
 
-First, run the development server:
+`@dynamicwebstudio/create-dws-app` is a powerful package that allows you to easily create a new Next.js 13.4 application, fully configured with TypeScript, Tailwind CSS, NextAuth, and Prisma. It comes with a predefined schema to facilitate rapid development and deployment.
+
+## Features
+
+- **Next.js 13.4**: A feature-rich framework for server-rendered React applications.
+- **TypeScript**: A statically typed superset of JavaScript that adds optional types.
+- **Tailwind CSS**: A utility-first CSS framework for rapidly building custom designs.
+- **NextAuth**: Complete open source authentication solution for Next.js applications.
+- **Prisma**: Open-source database toolkit to facilitate accessing your database.
+
+## Installation
+
+Install the package globally using npm:
+
+```bash
+npm install -g @dynamicwebstudio/create-dws-app
+```
+## Usage
+To create a new Next.js project:
+```bash
+npx @dynamicwebstudio/create-dws-app my-app
+```
+replace `my-app` with the name of your project.
+
+## Before you start
+
+Before running your project, make sure to:
+
+1. Generate the Prisma client: After installation, run npx prisma generate to generate the Prisma client.
+2. Set up your environment variables: Fill in the .env file with your environment variables. This is crucial for connecting to your database and configuring authentication providers.
+
+## Customization
+
+Once the installation is complete, you can customize your application by editing the configuration files:
+
+- TypeScript: Add or modify types in your .ts files.
+- Tailwind CSS: Customize your design in tailwind.config.js.
+- NextAuth: Configure your authentication providers in [...nextauth].js.
+- Prisma: Adjust your database schema in schema.prisma.
+
+## Scripts
+
+The package.json file includes several pre-defined scripts:
+
+- dev: Runs the application in development mode.
+- build: Builds the application for production.
+- start: Starts the production application.
+- lint: Runs the linter.
+- test: Runs the tests.
+- To run these scripts, use npm:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+npm run build
+npm run start
+npm run lint
 ```
+## Support
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+For any questions or issues, please open an issue in the GitHub repository or contact us directly.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Contributing
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Contributions are welcome! Please check the CONTRIBUTING.md file in the [GitHub repo](https://github.com/Dynamic-Web-Studio/create-dws-app/) for guidelines.
 
-## Learn More
+## License
 
-To learn more about Next.js, take a look at the following resources:
+`@dynamicwebstudio/create-dws-app` is released under the MIT License. Please see the LICENSE.md file in the [GitHub repo](https://github.com/Dynamic-Web-Studio/create-dws-app/) for details.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Thank you for using `@dynamicwebstudio/create-dws-app` to accelerate your Next.js application development!
