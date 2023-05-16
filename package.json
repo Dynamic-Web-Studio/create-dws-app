@@ -1,12 +1,21 @@
 {
   "name": "@dynamicwebstudio/create-dws-app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "bin": "./bin/cli.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Dynamic Web Studio",
+    "url": "https://dynamicwebstudio.com"
+  },
+  "repository": {
+    "url": "https://github.com/Dynamic-Web-Studio/create-dws-app",
+    "type": "git"
   },
   "dependencies": {
     "@prisma/client": "^4.14.0",
