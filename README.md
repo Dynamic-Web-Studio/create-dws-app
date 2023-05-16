@@ -72,3 +72,4 @@ Contributions are welcome! Please check the CONTRIBUTING.md file in the [GitHub 
 `@dynamicwebstudio/create-dws-app` is released under the MIT License. Please see the LICENSE.md file in the [GitHub repo](https://github.com/Dynamic-Web-Studio/create-dws-app/) for details.
 
 Thank you for using `@dynamicwebstudio/create-dws-app` to accelerate your Next.js application development!
+# admin
