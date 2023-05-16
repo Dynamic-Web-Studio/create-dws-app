@@ -1,7 +1,7 @@
 {
   "name": "@dynamicwebstudio/create-dws-app",
-  "version": "0.1.1",
-  "bin": "./bin/create-dws-app.js",
+  "version": "0.1.2",
+  "bin": "./bin/cli.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
